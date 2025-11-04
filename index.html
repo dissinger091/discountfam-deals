@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Fam - Today's Amazon Deals</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 30px 20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .deals-count {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .deal-card {
+            background: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .deal-card:hover {
+            transform: translateY(-5px);
+        }
+        .deal-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+        .deal-card p {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .deal-button {
+            background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+        .deal-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+        }
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            padding: 20px;
+            opacity: 0.8;
+        }
+        .last-updated {
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .deal-card {
+                padding: 20px;
+                margin: 15px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛍️ Discount Fam Deals</h1>
+            <p>Today's Best Amazon Deals • Updated Automatically</p>
+            <div class="deals-count">
+                <strong>2 HOT DEALS AVAILABLE</strong>
+            </div>
+        </div>
+
+        
+        <div class="deal-card">
+            <h3>🔥 Deal #1</h3>
+            <p>Hot Wheels Monster Trucks 2-Pack, Demolition Doubles Set of 2 Toy Vehicles in 1:...</p>
+            <a href="https://www.amazon.com/dp/B07F6ZBW52?tag=discountfam-20&linkCode=osi&th=1&psc=1" target="_blank" class="deal-button">
+                🛒 Get This Deal
+            </a>
+        </div>
+        
+        <div class="deal-card">
+            <h3>🔥 Deal #2</h3>
+            <p>Monopoly Junior Trucks Edition Board Game for Kids Ages 5+, 2-4 Player Kids Game...</p>
+            <a href="https://www.amazon.com/dp/B0BFG31ZP4?tag=discountfam-20&linkCode=osi&th=1&psc=1" target="_blank" class="deal-button">
+                🛒 Get This Deal
+            </a>
+        </div>
+        
+
+        <div class="footer">
+            <p>🔔 New deals posted daily • Follow on Instagram for updates!</p>
+            <p>💡 Prices may change • Deals are time-sensitive</p>
+            <div class="last-updated">
+                Last updated: November 04, 2025 at 02:13 PM
+            </div>
+        </div>
+    </div>
+</body>
+</html>
